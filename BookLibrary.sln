@@ -21,15 +21,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAcess", "DataAcess", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Provider", "Provider", "{021E309A-9FB3-4B5F-9958-DA4734CB286E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.Domain.Core", "App.Domain.Core\App.Domain.Core.csproj", "{4D619BB1-403E-443B-88C1-251646ED80AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App.Domain.Core", "App.Domain.Core\App.Domain.Core.csproj", "{4D619BB1-403E-443B-88C1-251646ED80AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.Domain.Service", "App.Domain.Service\App.Domain.Service.csproj", "{A2C2B2F7-EBFC-43CF-87E2-5ED0551F3123}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App.Domain.Service", "App.Domain.Service\App.Domain.Service.csproj", "{A2C2B2F7-EBFC-43CF-87E2-5ED0551F3123}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.Domain.AppService", "App.Domain.AppService\App.Domain.AppService.csproj", "{39BAA064-3733-46BF-9848-A625587AA144}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App.Domain.AppService", "App.Domain.AppService\App.Domain.AppService.csproj", "{39BAA064-3733-46BF-9848-A625587AA144}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.infra.DataRepo.Ef", "App.infra.DataRepo.Ef\App.infra.DataRepo.Ef.csproj", "{996A9583-B591-48F1-A29F-534850E76467}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App.infra.DataRepo.Ef", "App.infra.DataRepo.Ef\App.infra.DataRepo.Ef.csproj", "{996A9583-B591-48F1-A29F-534850E76467}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.infra.DB.SqlServer", "App.infra.DB.SqlServer\App.infra.DB.SqlServer.csproj", "{F166A62D-F43B-467F-872A-3C561F9F4DE7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App.infra.DB.SqlServer", "App.infra.DB.SqlServer\App.infra.DB.SqlServer.csproj", "{F166A62D-F43B-467F-872A-3C561F9F4DE7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src-pkg", "src-pkg", "{1F1EEFEC-009E-4B1A-A57F-2E9819A6CDAA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "packages", "packages", "{51C9CC06-5305-4110-9D38-E498F5B33E08}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{0559C49E-D3EE-4CCA-810E-7DE8EAF5A996}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
