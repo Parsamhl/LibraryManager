@@ -6,4 +6,16 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Library\Author\Service\" />
+    <Folder Include="Library\Book\Service\" />
+    <Folder Include="Library\Category\Service\" />
+    <Folder Include="Library\Operator\AppService\" />
+    <Folder Include="Library\Operator\Data\" />
+    <Folder Include="Library\Operator\Dtos\" />
+    <Folder Include="Library\Operator\Service\" />
+    <Folder Include="Library\User\AppService\" />
+    <Folder Include="Library\User\Service\" />
+  </ItemGroup>
+
 </Project>
